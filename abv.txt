@@ -1,0 +1,15 @@
+Start pj2
+
+Bridge race:
+- trong 1 level  bao gồm các đối tượng :
+ + ground brick
+	++ trên cầu sẽ là các brick không màu khi mình chạy lên thì nó sẽ đổi màu , có 1prefabs cho cái bridge , có hàm 
+change color chuyền vào enum color
+ + character brick
+ + nhân vật sinh ra tại startPoint/FinishPoint
+ + bridge
+ + ground/wall không cần Scripts
+ + character ( có bot và player )
+	++ class base : color type , list_brick<> , OnInit() , AddBrick() , RemoveBrick(), ClearBrick(), checkColor() , 
+MeshRenderer.material(int) colortype , list_color<material> , ColorTypeSO
+ + Door

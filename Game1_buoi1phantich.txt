@@ -1,0 +1,25 @@
+* Project game đầu tiên *
+ - di chuyển : Joystick tải về hoặc tự code
+ - Màn dọc : 1080x1920
+ - Phân lớp đối tượng: 
+ - Chuẩn hóa đơn vị :
+  * Các thành phần trong game*
+- UiManager:
+	+ SpawnUi: UiManager.Instance.Show(),...
+- LevelManager:
+	+ Spawn Player,Spawn Level, 
+- GameManager: 
+ 	+ GameState:Playing,MainMenu,...
+- Level : 
+	+ Ground
+	+ GroundBrick
+	+ PlayerBrick
+	+ Player
+	+ StartPoint
+	+ EndPoint
+- Player: 
+	+ Move(): enum(DR.LEFT,...)
+	+ Joystick
+	+ AddBrick()
+	+ RemoveBrick()
+	+ List<PlayerBrick> 
